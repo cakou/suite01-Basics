@@ -22,3 +22,18 @@
 // boostedEvenAddition([1, 3, 4, 5, 4, 6, 9, 8, 11, 10, 11, 12]);
 
 //  écrire votre code sous ce commentaire
+
+
+function boostedEvenAddition(tab)  {
+     var resultat = 0;
+    for(i=0; i < tab.length; i++)
+    {
+        if ((tab[i] % 2) === 0)
+         {   
+            resultat = resultat + tab[i];
+        }
+    }
+     return resultat; 
+}
+boostedEvenAddition([4, 5, 6]);
+
