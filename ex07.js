@@ -1,7 +1,7 @@
 /*
     Ecrire une fonction "boostedAddition",
-    qui prend un paramètre un tableau de nombre,
-    et qui retourne un nombre étant l'addition de tous les nombre du tableau
+    qui prend en paramètre un tableau de nombre,
+    et qui retourne un nombre étant l'addition de tous les nombres du tableau
 
 */
 
@@ -22,3 +22,12 @@
 // boostedAddition([4, 4, 6, 8, 10, 12]);
 
 //  écrire votre code sous ce commentaire
+
+function boostedAddition(nb) {
+    var total = 0;
+    for(i=0; i < nb.length; i++) 
+    {   
+        total = nb[i] + total;
+    }
+    return total;
+}
