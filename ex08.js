@@ -44,7 +44,7 @@ function isAllEven(tab) {
     for(i=0; i < tab.length; i++) 
     {   
         if (isEven(tab[i])=== "0") {
-        return "1";
+        return ;
         }
 
     }
