@@ -17,4 +17,21 @@
         - une fonction "isAdult" pour tester si la personne est majeur;
 
 */
+let person = {
+    name: {
+        firstName: "toto",
+        lastName: "tata"
+    }
+age: 45,
 
+fullName: function ()
+ {
+     return this.name.firstName + "" + this.name.lastName;
+ }
+};
+
+function getHumanTypeByAge (nb) {
+    if (nb >= 18) {
+        return "majeur"
+    }
+}
