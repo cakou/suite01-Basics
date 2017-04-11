@@ -13,3 +13,8 @@
         copyArray(["bonjour", 4, 5]); // ["bonjour", 4, 5]
 
 */
+
+function copyArray(arr) {
+    var copyarr = arr;
+    return copyarr;
+}
