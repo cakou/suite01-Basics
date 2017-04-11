@@ -12,3 +12,8 @@
         getCharAt("salut", 4); // "t"
 
 */
+
+function getChartAt(str, position) {
+      return  str[position];
+}
+
