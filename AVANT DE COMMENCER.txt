@@ -32,7 +32,7 @@
         Laisser uniquement la fonction de l'exercice !!
         Aucuns autre appel à la fonction !!
 
-    Le script se chargera de passer les paramètres necéssaire à chaque exercice.
+    Le script se chargera de passer les paramètres nécessaire à chaque exercice.
 
     -----------------------------------
 
